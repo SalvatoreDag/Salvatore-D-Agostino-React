@@ -1,0 +1,156 @@
+.why {
+  padding: 9.6rem 0;
+  background-color: white;
+}
+
+.tertiary,
+.secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  text-align: center;
+}
+
+.tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: grid;
+  column-gap: 9rem;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.imgBox {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3f9d8;
+  border-radius: 25rem;
+}
+
+.image {
+  width: 95%;
+}
+
+
+
+  .btn,
+.btn:link,
+.btn:visited {
+  display: absolute;
+   margin-left: 90%;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 2rem;
+  border-radius: 100px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  background-color: #51cf66;
+  color: #fff;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+.btn:hover,
+.btn:active {
+  background-color: #37b24d;
+}
+
+
+.icon {
+  height: 1.7rem;
+  width: 1.7rem;
+  color: white;
+}
+
+
+/* BELOW 1200px (Landscape Tablets) */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+.container{
+  column-gap: 4rem;
+  row-gap: 6.4rem;
+}
+}
+
+/* BELOW 944px (Tablets) */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    
+    padding: 0 6rem;
+    
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 6rem;
+  }
+
+}
+
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .secondary{
+    font-size: 3.6rem;
+  }
+
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+   
+  .imgBox:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .imgBox:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .btn{
+    margin-left: 70%;
+  }
+
+}

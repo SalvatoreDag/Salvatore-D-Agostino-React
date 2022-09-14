@@ -1,0 +1,158 @@
+.info {
+  padding: 5rem 0 9.6rem 0;
+  background-color: #d3f9d8;
+}
+
+.secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  text-align: center;
+}
+.tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.details {
+  padding: 2rem 10rem 5rem 0rem;
+  margin-bottom: 5rem;
+  /* background-color: #d3f9d8; */
+}
+
+.detailsList {
+  display: flex;
+  gap: 15rem;
+  justify-content: center;
+}
+
+.list {
+  font-size: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  height: 1.7rem;
+  width: 1.7rem;
+  color: white;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.ingredients {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.text {
+  padding: 5rem 5rem 0 15rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.image {
+  width: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  margin-top: 3.5rem;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  background-color: #51cf66;
+  color: #fff;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #37b24d;
+}
+
+/* BELOW 1200px (Landscape Tablets) */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    padding: 0 5rem 0 10rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+  }
+  .detailsList {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+  }
+  .text {
+    padding: 5rem 5rem 3rem 5rem;
+  }
+  .description {
+    font-size: 1.7rem;
+  }
+}
+
+/* BELOW 750px (Smaller tablets) */
+
+@media (max-width: 48em) {
+  .container {
+    padding: 0 5rem 0 10rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+  }
+
+  .imgBox {
+    margin-left: 10rem;
+  }
+
+  .image {
+    width: 70%;
+  }
+}
+
+/* BELOW 544px (Phones) */
+
+@media (max-width: 34em) {
+  .container{
+    padding-left: 0;
+  }
+}
+  

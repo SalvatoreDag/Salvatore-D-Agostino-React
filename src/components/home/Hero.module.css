@@ -1,0 +1,193 @@
+.sectionHero {
+  background-color: #d3f9d8;
+  padding: 4.8rem 0 9.6rem 3.5rem;
+ 
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.heading {
+  font-size: 4.5rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heroImage {
+  width: 100%;
+}
+ 
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  background-color: #51cf66;
+  color: #fff;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #37b24d;
+  
+}
+
+
+.action{
+  margin-left: 2rem;
+ 
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: 1px solid #51cf66;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  background-color: white;
+  color: #51cf66;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+.action:hover,
+.action:active {
+  background-color: #37b24d;
+  color: white;
+  
+}
+
+
+/* BELOW 944px (Tablets) */
+@media (max-width: 59em) {
+html {
+  font-size: 50%;
+}
+
+
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.05;
+}
+
+.btn{
+  width: 45%;
+}
+
+.action{
+  width: 30%;
+}
+
+}
+
+/* BELOW 750px (Smaller tablets) */
+
+
+@media (max-width: 48em) {
+
+  .hero {
+    display: grid;
+    padding: 2rem 3.2rem;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 7rem;
+    align-items: center;
+   
+  }
+
+  .heading{
+    text-align: center;
+  }
+
+  .description{
+    text-align: center;
+  }
+  
+  .btn{
+    width: 30%;
+    height: 8rem;
+    margin-left: 16rem;
+  }
+
+  .action{
+    width: 20%;
+    height: 8rem;
+
+  }
+ 
+
+  .heroImage {
+    width: 60%;
+    margin-left: 14rem;
+  }
+}
+
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+   .hero{
+    padding-left: 0
+   }
+
+  .btn{
+    font-size: 1.5rem;
+    margin-left: 3.5rem;
+    width: 45%;
+  }
+
+  .action{
+    font-size: 1.5rem;
+    width: 32%;
+  }
+  .heroImage {
+    width: 100%;
+    margin-left: 0rem;
+  }
+}

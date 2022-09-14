@@ -1,0 +1,72 @@
+.search {
+  background-image: url("../images/garden.jpg");
+  padding: 10rem 0 10rem 0;
+}
+.title {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+}
+
+blockquote{
+color: white;
+text-align: center;
+font-size: 1.9rem;
+padding-top: 2rem ;
+}
+
+.form {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 14rem;
+}
+
+input {
+  width: 40rem;
+  padding: 0.9rem 1rem;
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: 0;
+  border: 1px solid var(--tenne-tawny);
+  color: var(--tenne-tawny);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+input ::placeholder {
+  color: var(--tenne-tawny);
+  font-size: 1rem;
+}
+
+.btn {
+  width: 60px;
+  height: 53px;
+  font-size: 1.8rem;
+  background: #51cf66;
+  color: #fff;
+  border: none;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #2f9e44;
+}
+
+.error{
+  text-align: center;
+  padding: 5rem 0;
+  font-weight: 800;
+  color: red;
+  font-size: 3rem;
+}

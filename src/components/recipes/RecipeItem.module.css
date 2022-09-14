@@ -1,0 +1,96 @@
+.item {
+    margin-top: 15rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    width: 32rem;
+    
+  }
+  
+  .item:hover{
+      transform: translateY(-1.2rem);
+      box-shadow: 0 4rem 6.4rem rgba(0, 0, 0, 0.06);
+    
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  
+  .content h3 {
+    font-size: 3.3rem;
+    color: #333;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  
+  
+  
+  .actions {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #51cf66;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #51cf66;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 12rem;
+    height: 5rem;
+    transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #099015;
+    border-color: #100107;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    color: #2f9e44;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  
+  .mealAttributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .mealAttribute {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  
+  .icon {
+    height: 2rem;
+    width: 2rem;
+    color: #2f9e44;
+  }
