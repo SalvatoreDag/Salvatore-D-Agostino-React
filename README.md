@@ -5,11 +5,11 @@ A web app to search for hundreds of vegetarian recipes
 
 💡 **How it works**
 
-Enter a food in the search bar to see all the recipes in which it is used.
+- Enter a food in the search bar to see all the recipes in which it is used.
 
-Use the "Show more" button to read the ingredients and description of the recipe
+- Use the "Show more" button to read the ingredients and description of the recipe
 
-Save your favorite recipes with the "Add to favorites" button
+- Save your favorite recipes with the "Add to favorites" button
 
 
 💻 **Languages**
