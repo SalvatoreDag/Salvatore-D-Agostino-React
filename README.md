@@ -30,22 +30,10 @@ A web app to search for hundreds of vegetarian recipes
 
 **INSTALLATION**
 
-1. Clone the repository
+ Clone the repository
 
 ```
  git clone https://github.com/SalvatoreDag/Salvatore-D-Agostino-React
-```
-
-2. Install dependencies
-
-```
- npm install
-```
-
-3. Build
-
-```
- npm run build 
 ```
 
 🌐***Try it!***
